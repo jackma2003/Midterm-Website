@@ -1,0 +1,161 @@
+.box {
+	flex-direction: column;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+}
+
+.navbar {
+	overflow: hidden;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #424246;
+	background-color: #000;
+	text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: lightgreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 10px;
+    background-color: transparent; 
+}
+
+.column {
+	flex: 33.33%;
+	padding: 70px;
+	align-content: center;
+}
+
+.row {
+	display: flex;
+	align-content: center;
+}
+
+.login {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.login:hover {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 12px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #2598b9;
+    background-color: transparent;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding-bottom: 70px;
+}
+
+table {
+    display: table;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+    border-collapse: collapse;
+}
+
+.pr {
+    padding-right: 8px;
+
+}
+
+.pr, b {
+    background-color: lightgreen;
+}
+
+.pl{
+    background-color: lightgreen;
+    padding-left: 8px;
+}
+
+td {
+    display: table-cell;
+    padding: 4px;
+    vertical-align: top;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.navbar a:hover {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.counter::after {
+  font: 800 40px system-ui;
+  content: counter(count);
+  animation: counter 5s linear infinite alternate;
+  counter-reset: count 0;
+}
+
+@keyframes counter {
+  0% {
+    counter-increment: count 0;
+  }
+  10% {
+    counter-increment: count 1;
+  }
+  20% {
+    counter-increment: count 2;
+  }
+  30% {
+    counter-increment: count 3;
+  }
+  40% {
+    counter-increment: count 4;
+  }
+  50% {
+    counter-increment: count 5;
+  }
+  60% {
+    counter-increment: count 6;
+  }
+  70% {
+    counter-increment: count 7;
+  }
+  80% {
+    counter-increment: count 8;
+  }
+  90% {
+    counter-increment: count 9;
+  }
+  100% {
+    counter-increment: count 10;
+  }
+}
+
