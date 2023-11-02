@@ -17,6 +17,7 @@
 	text-align: center;
 }
 
+@media screen and (max-width: 600px) {
 .navbar a {
     display: inline-block;
     color: lightgreen;
@@ -25,6 +26,7 @@
     text-decoration: none;
     margin: 0 10px;
     background-color: transparent; 
+  }
 }
 
 .column {
@@ -69,8 +71,10 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (min-width: 480px) {
 body {
     padding-bottom: 70px;
+  }
 }
 
 table {
